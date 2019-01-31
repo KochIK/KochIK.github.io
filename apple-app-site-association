@@ -5,16 +5,16 @@
       {
         "appID": "6XZF7Z6V36.deep.links.te",
         "paths": [
-          "*/join_premier/",
-          "*/bank_account_details/",
-          "*/make_transfer/",
-          "*/make_check_deposit/",
-          "*/send_check_by_mail",
-          "*/oxygen_card/",
-          "*/find_atms/",
-          "*/profile/",
-          "*/credit_score/",
-          "*/referral_statistics/"
+          "/join_premier/",
+          "/bank_account_details/",
+          "/make_transfer/",
+          "/make_check_deposit/",
+          "/send_check_by_mail",
+          "/oxygen_card/",
+          "/find_atms/",
+          "/profile/",
+          "/credit_score/",
+          "/referral_statistics/"
         ]
       }
     ]
