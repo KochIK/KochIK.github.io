@@ -5,7 +5,7 @@
       {
         "appID": "6XZF7Z6V36.deep.links.te",
         "paths": [
-          "*"
+          "video/"
         ]
       }
     ]
