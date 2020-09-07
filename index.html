@@ -14,8 +14,8 @@
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         
-        var config = urlParams.get('config');
-        console.log(config);
+        var clientId = urlParams.get('clientId');
+        var language = urlParams.get('language');
         
         var _config = {
             "clientId": "02ac3725f95686fe1ab5bbe1088012d3",
@@ -62,9 +62,9 @@
     
     (function(a,b,c,d,e,f,g,h,i){a[e]||(i=a[e]=function(){(a[e].q=a[e].q||[]).push(arguments)},i.l=1*new Date,i.o=f,
                                         g=b.createElement(c),h=b.getElementsByTagName(c)[0],g.async=1,g.src=d,g.setAttribute("n",e),h.parentNode.insertBefore(g,h)
-                                        )})(window,document,"script", "https://widgets.sir.sportradar.com/" + config['clientId'] + "/widgetloader", "SIR", {
+                                        )})(window,document,"script", "https://widgets.sir.sportradar.com/" + config.clientId + "/widgetloader", "SIR", {
         theme: true, // using custom theme
-        language: config.language
+        language: language
     });
     SIR("addWidget", ".sr-widget-1", "match.lmtPlus", {config, onTrack: function(param1, param2){ didSizeChange() } });
     window.addEventListener("message", receiveMessage, false);
