@@ -64,8 +64,9 @@
         theme: true, // using custom theme
         language: language
     });
-    SIR("addWidget", ".sr-widget-1", "match.lmtPlus", {config});
+    SIR("addWidget", ".sr-widget-1", "match.lmtPlus", config);
     window.addEventListener("message", receiveMessage, false);
+//         , onTrack: function(param1, param2){ didSizeChange() }
         </script>
 </html>
 
