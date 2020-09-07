@@ -18,7 +18,7 @@
         var language = urlParams.get('language');
         
         var config = {
-            "clientId": clientId,
+            "matchId": 23382951,
             "disableWidgetHeader": true,
             "disableFooterStats": false,
             "showOdds": false,
@@ -29,14 +29,12 @@
             "goalBannerImage": "",
             "detailedScoreboard": "disable",
             "pitchCustomBgColor": "",
-            "matchId": 23382951,
             "adsFrequency": false,
             "scoreboard": "disable",
             "disableComponents": false,
             "layout": "single",
             "momentum": "disable",
             "disableAds": true,
-            "language": language,
         }
     
     function receiveMessage(event) {
@@ -66,7 +64,7 @@
         theme: true, // using custom theme
         language: language
     });
-    SIR("addWidget", ".sr-widget-1", "match.lmtPlus", {config, onTrack: function(param1, param2){ didSizeChange() } });
+    SIR("addWidget", ".sr-widget-1", "match.lmtPlus", {config});
     window.addEventListener("message", receiveMessage, false);
         </script>
 </html>
