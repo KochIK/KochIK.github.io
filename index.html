@@ -57,7 +57,7 @@
         theme: true, // using custom theme
         language: "en"
     });
-    SIR("addWidget", ".sr-widget-1", "match.lmtPlus", {"matchId: 12, onTrack: function(param1, param2){ didSizeChange() } });
+    SIR("addWidget", ".sr-widget-1", "match.lmtPlus", {config, onTrack: function(param1, param2){ didSizeChange() } });
     window.addEventListener("message", receiveMessage, false);
         </script>
 </html>
