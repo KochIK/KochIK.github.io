@@ -37,21 +37,14 @@
             "disableAds": true,
         }
     
-    function receiveMessage(event) {
-        if (event.origin === "isFloatingMode") {
-            updateProps(event)
-        }
-    }
-    
-    function hideTabBars(isHidden) {
-        if (isHidden) {
-            config.tabsPosition = "disable"
-        } else {
-            config.tabsPosition = "top"
-        }
         
-        print("Tab Position:" + config.tabsPosition);
-        //SIR("updateWidget", ".sr-widget-1", config);
+    
+    function updateProps(props) {
+        if (props.isFloating) {
+            print(props.isFloating)
+        } else {
+            print("____")
+        }
     }
     
     function didSizeChange() {
