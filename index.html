@@ -5,10 +5,10 @@
         <meta name="viewport" id="viewport" content="width=device-width, user-scalable=no">
             </head>
     <body onresize="didSizeChange()">
+        <p id="text">Test</p>
         <div class="widgets" id="lmtWidget">
             <div class="sr-widget sr-widget-1"></div>
         </div>
-        <div id='text'></div>
     </body>
     <script>
         const queryString = window.location.search;
@@ -56,7 +56,9 @@
     function didSizeChange() {
         var widgetHeight = document.getElementById('lmtWidget').offsetHeight;
         webkit.messageHandlers['didHeightChange'].postMessage(widgetHeight);
-        document.getElementById('text').innerHTML = "Test Text";
+
+        var paragraph = document.getElementById("text");
+        paragraph.textContent += "This just got added";
     }
     
     (function(a,b,c,d,e,f,g,h,i){a[e]||(i=a[e]=function(){(a[e].q=a[e].q||[]).push(arguments)},i.l=1*new Date,i.o=f,
