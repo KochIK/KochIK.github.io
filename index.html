@@ -5,7 +5,7 @@
         <meta name="viewport" id="viewport" content="width=device-width, user-scalable=no">
             </head>
     <body onresize="didSizeChange()">
-        <p id="text">Test</p>
+        <p id="text">Testss</p>
         <div class="widgets" id="lmtWidget">
             <div class="sr-widget sr-widget-1"></div>
         </div>
@@ -50,17 +50,21 @@
             config.tabsPosition = "top"
         }
         
-        SIR("updateWidget", ".sr-widget-1", config);
+        printff("Tab Position:" + config.tabsPosition);
+        //SIR("updateWidget", ".sr-widget-1", config);
     }
     
     function didSizeChange() {
         var widgetHeight = document.getElementById('lmtWidget').offsetHeight;
         webkit.messageHandlers['didHeightChange'].postMessage(widgetHeight);
-
-        var paragraph = document.getElementById("text");
-        paragraph.textContent += "This just got added";
+        print("didSizeChange");
     }
     
+    function print(text) {
+        var paragraph = document.getElementById('text');
+        paragraph.textContent = text;
+    }
+        
     (function(a,b,c,d,e,f,g,h,i){a[e]||(i=a[e]=function(){(a[e].q=a[e].q||[]).push(arguments)},i.l=1*new Date,i.o=f,
                                         g=b.createElement(c),h=b.getElementsByTagName(c)[0],g.async=1,g.src=d,g.setAttribute("n",e),h.parentNode.insertBefore(g,h)
                                         )})(window,document,"script", "https://widgets.sir.sportradar.com/" + clientId + "/widgetloader", "SIR", {
@@ -72,11 +76,3 @@
 //         , onTrack: function(param1, param2){ didSizeChange() }
         </script>
 </html>
-
-
-
-
-
-
-
-
