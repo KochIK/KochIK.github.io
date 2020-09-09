@@ -695,7 +695,8 @@
                     	"disableWidgetHeader" : true,
                     	"disableFooterStats" : false,
                     	"pitchCustomBgColor" : "",
-                    	"tabsPosition" : "top"
+                    	"tabsPosition" : "top",
+                      "pitchCustomBgColor": "#fcba03"
       }
     },
     "marketsFilterConfig": {
