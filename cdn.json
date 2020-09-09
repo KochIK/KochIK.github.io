@@ -1,1 +1,1042 @@
-{"global":{"siteId":182,"homePageBaseUrl":"https://native-ice2019.staging.sbtech.com","ajaxBaseUrl":"https://native-ice2019.staging.sbtech.com","translationsBaseUrl":"https://onlinedemo.staging.sbtech.com","playerApiBaseUrl":"https://api.play-gaming.com/staging/plat","inboxApiBaseUrl":"https://api.play-gaming.com/staging","loginApiBaseUrl":"https://api.play-gaming.com/staging","isNegativeBalanceEnabled":false,"walletType":"dual","sportDataBffPullUrl":"https://stgapi.sbtech.com/ice2018/sportscontent/sportsbook/native-uat/v2","sportDataBffPushUrl":"wss://stgapi.sbtech.com/ice2018/sportscontent/sportsbook/native-uat/v1/Websocket","showUnderMaintenanceScreen":false,"brandId":"240","casinoApiBaseUrl":"https://api-usstg.sbtech.com/betamerica/casinoapi/v2"},"routesConfig":{"/deposit":"/banking/?prodID=0&tranType=0","/balance-transfer":"/balance-transfer"},"updateConfig":{"minimalSupportedBuild":0,"latestBuild":0,"usePlayMarket":false,"updateUrl":"https://www.dropbox.com/s/dpq69yd2nlu1nps/platform-debug.apk?dl=1"},"authorizationConfig":{"routesPermissions":{"/history":"OPEN_BET_HISTORY"},"actionsPermissions":{"action/placeBet":"PLACE_BET","action/openCasinoGame":"PLAY_CASINO","action/cashOut":"PLACE_BET","action/showSignInRegulationsLogos":"SHOW_LOGGED_IN_LOGOS","action/showRealityCheckPopup":"SHOW_REALITY_CHECK_POPUP","action/showLoggedInBannerForLoggedInUser":"SHOW_LOGGED_IN_BANNER_FOR_LOGGED_IN_USER"},"permissionResolvers":{"OPEN_BET_HISTORY":["AUTHENTICATION_RESOLVER"],"SHOW_LOGGED_IN_LOGOS":["AUTHENTICATION_RESOLVER"],"PLACE_BET":["AUTHENTICATION_RESOLVER"],"PLAY_CASINO":["AUTHENTICATION_RESOLVER","CASINO_KYC_STATUS_RESOLVER","CASINO_TOF_STATUS_RESOLVER"],"SHOW_REALITY_CHECK_POPUP":["AUTHENTICATION_RESOLVER","IS_CASINO_GAME_CLOSED_RESOLVER"],"SHOW_LOGGED_IN_BANNER_FOR_LOGGED_IN_USER":["AUTHENTICATION_RESOLVER"]}},"burgerMenuConfig":{"primaryList":[{"title":"All Sports","iconUrl":"https://native-ice2019.sbtech.com/img/29472","route":"/allSports"},{"title":"Baseball","iconUrl":"https://native-ice2019.sbtech.com//img/29497","route":"/sportScreen?sportId=7"},{"title":"NFL","iconUrl":"https://native-ice2019.sbtech.com/img/29498","route":"/singleLeague?leagueID=88808"},{"title":"Bet Search","iconUrl":"https://native-ice2019.sbtech.com/img/27787","route":"/responsive-search"},{"title":"Promotions","iconUrl":"https://native-ice2019.sbtech.com/img/27791","route":"/promotions"}],"secondaryList":[{"title":"Terms & Conditions","iconUrl":"","route":"/terms-and-conditions"},{"title":"Responsible gambling","iconUrl":"","route":"/responsible-gaming"},{"title":"Settings","iconUrl":"","route":"/settings"},{"title":"Live chat","iconUrl":"","route":"/?nativejs=document.getElementById('sbChat').classList.toggle('sbHidden');"}]},"bottomBarConfig":[{"title":"Home","defaultIconUrl":"https://native-ice2019.sbtech.com/img/27539","selectedIconUrl":"https://native-ice2019.sbtech.com/img/27539","route":"/sportsbook","navigationType":"lateral"},{"title":"Live","defaultIconUrl":"https://native-ice2019.sbtech.com/img/27541","selectedIconUrl":"https://native-ice2019.sbtech.com/img/27541","route":"/live-betting","navigationType":"lateral"},{"title":"MLB","defaultIconUrl":"https://native-ice2019.sbtech.com//img/29497","selectedIconUrl":"https://native-ice2019.sbtech.com//img/29497","route":"/singleLeague?leagueID=84240","navigationType":"lateral"},{"title":"Casino","defaultIconUrl":"https://native-ice2019.sbtech.com/img/27543","selectedIconUrl":"https://native-ice2019.sbtech.com/img/27543","route":"/casino","navigationType":"lateral"},{"title":"Betslip","defaultIconUrl":"https://native-ice2019.sbtech.com/img/27545/img/27545.png","selectedIconUrl":"https://native-ice2019.sbtech.com/img/27545/img/27545.png","route":"/betslip","navigationType":"outward"}],"navigationBarConfig":{"rightButtons":[{"title":"Search","iconUrl":"https://native-ice2019.sbtech.com/img/29379","route":"/responsive-search"},{"title":"Open Bets","iconUrl":"https://native-ice2019.sbtech.com/img/27550","route":"/history"}],"showProfileInHeader":true,"showBalanceInHeader":true,"showBalanceButtonIcon":true,"showBalanceWithDecimalsInHeader":true,"loginButtonsPresentationType":"auth_buttons","logoUrl":"https://native-ice2019.sbtech.com/img/29501"},"balanceBreakdownConfig":{"items":[],"showFreeBets":false,"showFreeSpins":false,"showTransferButton":true,"showDepositButton":true,"showBottomBalance":false,"depositButtonStyle":"bounded","transferButtonStyle":"bounded"},"regulatoryStripConfig":{"isEnabled":false,"sessionTimerConfig":{"showClock":true,"showTimer":true,"timeZone":"GMT+3"},"regulatoryLogos":[]},"footerConfig":{"isEnabled":true,"brandLogo":{"elements":[{"logoUrl":"https://native-ice2019.sbtech.com/img/29500","alignment":"center"}],"position":0},"links":{"elements":[{"title":"Terms & Conditions","route":"/terms-and-conditions"},{"title":"Betting Rules","route":"/betting-rules"},{"title":"Responsible gaming","route":"/responsible-gaming"},{"title":"Contact us","route":"/contactus"}],"position":2},"logos":{"elements":[{"logoUrl":"https://native-ice2019.sbtech.com/img/29230","route":"https://www.responsiblegambling.org/"},{"logoUrl":"https://native-ice2019.sbtech.com/img/29232","route":"https://www.nj.gov/lps/ge/index.html"},{"logoUrl":"https://native-ice2019.sbtech.com/img/29234","route":"https://www.mastercard.us/en-us.html"},{"logoUrl":"https://native-ice2019.sbtech.com/img/29236","route":"https://www.visa.com"},{"logoUrl":"https://native-ice2019.sbtech.com/img/29238","route":"https://www.neteller.com"},{"logoUrl":"https://native-ice2019.sbtech.com/img/29240","route":"https://home.paynearme.com/"}],"position":3},"paragraphs":{"elements":[{"text":"<p>10bet.co.uk is operated by Blue Star Planet Limited (a company registered in Malta, address: 142 Triq il-Kbira, Zebbug ZBG1303, Malta).Our services are regulated and licensed by the <a href=\"http://www.gamblingcommission.gov.uk\">Great Britain Gambling Commission</a> <a href=\"https://secure.gamblingcommission.gov.uk/gccustomweb/PublicRegister/PRSearch.aspx?ExternalAccountId=43173\">(Licence Number 43173)</a></p><p>Our services for Republic of Ireland residents are operated under a Remote Bookmaker?s Licence (Licence Number 1010917), issued by the Office of the Revenue Commissioners.</p>Please play responsibly, for more information and advice visit: <a href=\"https://www.begambleaware.org\">www.begambleaware.org</a>"}],"position":1}},"userMenuConfig":{"titleItem":{"titleType":"full_name","subtitleType":"full_name"},"mainItems":[{"title":"Open Bets","iconUrl":"https://native-ice2019.sbtech.com/img/29371","type":"openBets","route":"/history"},{"title":"Inbox","iconUrl":"https://native-ice2019.sbtech.com/img/29373","type":"inbox","route":"/inbox"},{"title":"Balance","iconUrl":"https://native-ice2019.sbtech.com/img/29375","type":"balance","route":"/balance-transfer"},{"title":"Free Bets","iconUrl":"https://native-ice2019.sbtech.com/img/29377","type":"freeBets","route":"/bonus-history"},{"title":"Free Spins","iconUrl":"http://simpleicon.com/wp-content/uploads/rocket-128x128.png","type":"freeSpins","route":"/freespinsList"}],"actionItems":[{"title":"Sports","route":"/sports"},{"title":"Casino","route":"/sports"}],"linkItems":[{"title":"My Account","items":[{"title":"Personal details","route":"/personal-details"},{"title":"Withdraw","route":"/banking/?prodID=0&tranType=1"},{"title":"Cancel withdrawal","route":"/cancel-withdrawal"},{"title":"Documents upload","route":"/documents-upload"},{"title":"Responsible gaming","route":"/responsible-gaming"},{"title":"Timeout facility","route":"/time-out-facility"},{"title":"Limits","route":"/limitation"},{"title":"Transaction History","route":"/?nativejs=Application.navigateTo('transaction-history', false, []);"},{"title":"Reality Check","route":"/realityCheckPopUp"}]},{"title":"Help","items":[{"title":"Betting Rules","route":"/betting-rules"},{"title":"Terms & Conditions","route":"/terms-and-conditions"},{"title":"Contact Us","route":"/contactus"}]}]},"registrationConfig":{"registrationUrl":"/register"},"realityCheckConfig":{"isEnabled":false,"apiBaseUrl":"https://stgapi.sbtech.com/ice2018/realitycheck","showBettingHistory":true,"showLogoutButton":true,"showAfterLogin":true,"defaultTime":1,"timeOptions":[0,1,2,5,10,15,30,60],"wageringInfo":{"showSportWageringInfo":true,"showCasinoWageringInfo":true}},"logInConfig":{"isKeepMeLoggedInEnabled":true,"isBiometricsEnabled":false,"isResponsibleGamblingMessageEnabled":false,"termsAndConditionsUrl":"/terms-and-conditions","forgotPasswordRoute":"/forgot-password-pop-up","inputType":"username_and_password"},"logoutRegulationConfig":{"isResponsibleGamblingDialogEnabled":true},"loadingScreenConfig":{"displayOption":"custom","title":"Go BIG with SBTech","subtitle":"Extensive responsible gaming tools","description":"Go BIG with SBTech","topImageUrl":"https://native-ice2019.sbtech.com/img/27830","background":{"imageUrl":"https://native-ice2019.sbtech.com/img/27620","gradient":{"type":"linear","angle":270}}},"landingScreenConfig":{"displayOption":"always","defaultConfig":{"backgroundUrls":["https://native-ice2019.sbtech.com/img/28199"],"cardOpacity":0.7,"useTextHeader":false,"customHeaderUrl":"","logoUrl":"https://native-ice2019.sbtech.com/img/29483","title":"Go BIG with SBTech!","description":"Extensive responsible gaming tools","substantiation":"We know sports!","buttons":[{"text":"Login","type":"bounded","style":"primary","route":"/login"},{"text":"Create Account","type":"bounded","style":"secondary","route":"/registration"}],"skipButtonConfig":{"text":"Skip","type":"text","style":"primary","route":"/homescreen"}}},"regulationRibbonConfig":{"isEnabled":false,"rules":{"SE_PLAYER_WITH_DATE":{"messageKey":"regulation_ribbon_self_excluded_user_with_date","route":""},"SE_PLAYER":{"messageKey":"regulation_ribbon_self_excluded_user","route":""},"TIME_OUT":{"messageKey":"regulation_ribbon_user_time_out","route":""},"NON_KYC_USER":{"messageKey":"regulation_ribbon_non_kyc_user","route":""},"NON_VERIFIED_USER":{"messageKey":"regulation_ribbon_non_verified_user","route":""},"EXTERNAL_PLAYER_AGE_VERIFICATION":{"messageKey":"regulation_ribbon_external_age_verification","route":""}}},"geoComplyConfig":{"isEnabled":false,"geoComplyApiUrl":"https://geoverifierapi.staging.sbtech.com","publicIpUrl":"https://ipify-7hvuftx3qa-uc.a.run.app/?format=json"},"sportsbookConfig":{"displayTeamNamesForMLMarket":false,"showErrorAfterTryCount":2,"monthNaming":"names","datesFormat":"MM-dd-yyyy","timeFormat":"h:mm a","marketsOrderConfig":{"americanMarketsOrder":[{"live":"1_39","prematch":"1_0"},{"live":"2_39","prematch":"2_0"},{"live":"3_39","prematch":"3_0"}],"europeanMarketsOrder":[{"live":"1_39","prematch":"1_0"},{"live":"2_39","prematch":"2_0"},{"live":"3_39","prematch":"3_0"}],"marketsOrderBySport":[{"sportId":1,"marketsOrder":[{"live":"1_39","prematch":"1_0"},{"live":"3_39","prematch":"3_0"},{"live":"2_39","prematch":"2_0"}]}]},"sportsConfig":{"displayedSportIds":["1","2","3","6","7","8","10","11","12","13","14","15","16","19","20"],"excludedSportIds":[],"americanSportIds":["2","3","7","8"]},"homeScreenConfig":{"displayedSportIds":["1","2","3","4","5","6","7","8","9","10","19"]},"sportScreenConfig":{"tabOrder":["games","leagues"],"leaguesFilterItemsOrder":["popular","all"]},"leagueScreenConfig":{"tabOrder":["games","outrights"],"outrightsBoard":{"halfExpandedLimit":5}},"eventScreenConfig":{"showMediaTypes":true,"marketsBoardConfig":{"marketsGroupFilter":{"allMarkets":{"isEnabled":true,"order":"first","expandedMarketsAmount":30},"otherMarketsEnabled":false,"orderAlphabetically":false},"participantMappingGroups":[["Home","Away"]],"outcomeTypeGroups":[["Home","Away"],["Home","Tie","Away"],["Over","Under"],["Over","Exactly","Under"],["Yes","No"],["Odd","Even"],["1X","X2","12"],["1X","12"],["X2","12"],["ToScoreFirst","ToScoreLast","ToScoreAnyTime"],["ToScoreFirstOrLast","ToScore2OrMore","ToScore3OrMore"]],"exceptionalSortingMarketIds":["76","166","702","1572","1610","2144"]},"scoreboardConfig":{"isEnabled":true,"hasBetRadarLicense":false,"sports":[{"sportId":"6","showPrimaryScore":true,"showPeriodScore":true,"primaryScoreKeys":[],"periodScoreKeys":[]}]}},"marketsFilterConfig":{"isEnabled":true,"marketsBySportId":[{"sportId":"1","markets":[{"marketName":"1X2","marketTypeId":{"prematch":"1_0","live":"1_39"},"marketKeyNames":["1","X","2"]},{"marketName":"Total Goals","marketTypeId":{"prematch":"3_200","live":"3_249"},"marketKeyNames":["Over","Under"]},{"marketName":"1st Half 1X2","marketTypeId":{"prematch":"1_1","live":"1_1"},"marketKeyNames":["1","X","2"]},{"marketName":"Total Goals 1st Half","marketTypeId":{"prematch":"3_201","live":"3_201"},"marketKeyNames":["Over","Under"]},{"marketName":"Both Teams to Score","marketTypeId":{"prematch":"158","live":"158"},"marketKeyNames":["Yes","No"]},{"marketName":"Draw No Bet","marketTypeId":{"prematch":"2_157","live":"2_157"},"marketKeyNames":["Home","Away"]},{"marketName":"Double Chance","marketTypeId":{"prematch":"61","live":"61"},"marketKeyNames":["1 or X","X or 2","1 or 2"]},{"marketName":"3W Handicap","marketTypeId":{"prematch":"270","live":"270"},"marketKeyNames":["Home","Tie, Home","Away"]}]},{"sportId":"6","markets":[{"marketName":"Full Time Winner","marketTypeId":{"prematch":"1_0","live":"1_39"},"marketKeyNames":["1","2"]},{"marketName":"1st Set Winner","marketTypeId":{"prematch":"1_740","live":"1_716"},"marketKeyNames":["1","2"]},{"marketName":"2nd Set Winner","marketTypeId":{"prematch":"1_741","live":"1_717"},"marketKeyNames":["1","2"]}]}]},"decimalSeparator":{"odd":".","point":"."}},"localizationConfig":{"currencyFormat":{"currencyPosition":"left","decimalSeparator":".","thousandsSeparator":",","signValueSeparator":" "},"initialLanguage":"en","timeZone":"+3","oddStyle":"american"},"webViewConfig":{"isLoadingScreenEnabled":false,"httpCredentials":{"username":"VutydruSeY9DkgeM","password":"j4SbwCmMvwjgEtjj"}},"betslipConfig":{"betslipUrl":"/bet-slip-page","maxSelectionCountInBetslip":20},"casinoConfig":{"casinoUrl":"/casino","casinoApiBaseUrl":"https://stgapi.sbtech.com/whltemplate/casinoapi/v2","showErrorDuration":2,"resourceLimit":5,"restrictedKYCStatuses":["0","1"],"isRestrictedTimeouted":false,"allGamesCategoryEnabled":false,"allGamesCategoryPosition":"first"},"shortcutsConfig":{"isEnabled":false,"shortcuts":[]},"lastLoginInformationConfig":{"showAfterLogin":false},"quickDepositConfig":{"isQuickDepositEnabled":false,"EPSBaseUrl":"http://eps-cashier-native-bff.eps.testing.sbtech.com","webCashierEndpoint":"/banking/?prodID=0&tranType=0","restrictedKYCStatuses":["0","1"],"isRestrictedTimeouted":false,"stepperSequence":[1,2,5,10,25,50]},"bannerListConfig":[{"route":"/single_sportsbook","type":"compact","banners":[{"title":"Title 4","promoText":"Soccer","materialTerms":"Redirect to Soccer screen","imageUrl":"https://native-ice2019.sbtech.com/img/29429","userType":"all","redirect":{"route":"/sportScreen?sportId=1","type":"forward"}},{"title":"Title","promoText":"American Football","materialTerms":"Redirect to American Football screen","imageUrl":"https://native-ice2019.sbtech.com/img/29419","userType":"all","redirect":{"route":"/sportScreen?sportId=3","type":"forward"}},{"title":"Title1 2","promoText":"NBA League","materialTerms":"Redirect to NBA league screen","imageUrl":"https://native-ice2019.sbtech.com/img/29421","userType":"all","redirect":{"route":"/singleLeague?leagueID=42648","type":"forward"}}]},{"route":"/single_casinoLobby","type":"compact","banners":[{"title":"Title1 - - very long text should devide into multiple lines, so that no corruption on banner screen should be","promoText":"Promo1 - - very long text should devide into multiple lines, so that no corruption on banner screen should be","materialTerms":"Material1 - very long text should devide into multiple lines, so that no corruption on banner screen should be","imageUrl":"https://nj-single-app.betamerica.com/img/24133","userType":"all","redirect":{"route":"https://www.google.com/maps","type":"outward"}}]},{"route":"/sportScreen?sportId=1","type":"compact","banners":[{"title":"","promoText":"England - Premier League","materialTerms":"Redirect to England - Premier League screen","imageUrl":"https://native-ice2019.sbtech.com/img/29429","userType":"all","redirect":{"route":"/singleLeague?leagueID=40253","type":"forward"}},{"title":"","promoText":"Champions League","materialTerms":"Redirect to Champions League screen","imageUrl":"https://native-ice2019.sbtech.com/img/29433","userType":"all","redirect":{"route":"/singleLeague?leagueID=40685","type":"forward"}},{"title":"","promoText":"Euro 2021","materialTerms":"Redirect to Euro 2021 League screen","imageUrl":"https://native-ice2019.sbtech.com/img/29435","userType":"all","redirect":{"route":"/singleLeague?leagueID=44349","type":"forward"}},{"title":"","promoText":"World Cup 2022","materialTerms":"Redirect to World Cup 2022 League screen","imageUrl":"https://native-ice2019.sbtech.com/img/29437","userType":"all","redirect":{"route":"/singleLeague?leagueID=142776","type":"forward"}}]},{"route":"/sportScreen?sportId=3","type":"regular","banners":[{"title":"","promoText":"NFL League","materialTerms":"Redirect to NFL league screen","imageUrl":"https://native-ice2019.sbtech.com/img/29419","userType":"all","redirect":{"route":"/singleLeague?leagueID=88808","type":"forward"}},{"title":"","promoText":"NFL Regular Season Player Props","materialTerms":"Redirect to ","imageUrl":"https://native-ice2019.sbtech.com/img/29419","userType":"all","redirect":{"route":"/singleLeague?leagueID=199777","type":"forward"}}]}]}
+{
+  "global": {
+    "siteId": 182,
+    "homePageBaseUrl": "https://native-ice2019.staging.sbtech.com",
+    "ajaxBaseUrl": "https://native-ice2019.staging.sbtech.com",
+    "translationsBaseUrl": "https://onlinedemo.staging.sbtech.com",
+    "playerApiBaseUrl": "https://api.play-gaming.com/staging/plat",
+    "inboxApiBaseUrl": "https://api.play-gaming.com/staging",
+    "loginApiBaseUrl": "https://api.play-gaming.com/staging",
+    "isNegativeBalanceEnabled": false,
+    "walletType": "dual",
+    "sportDataBffPullUrl": "https://stgapi.sbtech.com/ice2018/sportscontent/sportsbook/native-uat/v2",
+    "sportDataBffPushUrl": "wss://stgapi.sbtech.com/ice2018/sportscontent/sportsbook/native-uat/v1/Websocket",
+    "showUnderMaintenanceScreen": false,
+    "brandId": "240",
+    "casinoApiBaseUrl": "https://api-usstg.sbtech.com/betamerica/casinoapi/v2"
+  },
+  "routesConfig": {
+    "/deposit": "/banking/?prodID=0&tranType=0",
+    "/balance-transfer": "/balance-transfer"
+  },
+  "updateConfig": {
+    "minimalSupportedBuild": 0,
+    "latestBuild": 0,
+    "usePlayMarket": false,
+    "updateUrl": "https://www.dropbox.com/s/dpq69yd2nlu1nps/platform-debug.apk?dl=1"
+  },
+  "authorizationConfig": {
+    "routesPermissions": {
+      "/history": "OPEN_BET_HISTORY"
+    },
+    "actionsPermissions": {
+      "action/placeBet": "PLACE_BET",
+      "action/openCasinoGame": "PLAY_CASINO",
+      "action/cashOut": "PLACE_BET",
+      "action/showSignInRegulationsLogos": "SHOW_LOGGED_IN_LOGOS",
+      "action/showRealityCheckPopup": "SHOW_REALITY_CHECK_POPUP",
+      "action/showLoggedInBannerForLoggedInUser": "SHOW_LOGGED_IN_BANNER_FOR_LOGGED_IN_USER"
+    },
+    "permissionResolvers": {
+      "OPEN_BET_HISTORY": [
+        "AUTHENTICATION_RESOLVER"
+      ],
+      "SHOW_LOGGED_IN_LOGOS": [
+        "AUTHENTICATION_RESOLVER"
+      ],
+      "PLACE_BET": [
+        "AUTHENTICATION_RESOLVER"
+      ],
+      "PLAY_CASINO": [
+        "AUTHENTICATION_RESOLVER",
+        "CASINO_KYC_STATUS_RESOLVER",
+        "CASINO_TOF_STATUS_RESOLVER"
+      ],
+      "SHOW_REALITY_CHECK_POPUP": [
+        "AUTHENTICATION_RESOLVER",
+        "IS_CASINO_GAME_CLOSED_RESOLVER"
+      ],
+      "SHOW_LOGGED_IN_BANNER_FOR_LOGGED_IN_USER": [
+        "AUTHENTICATION_RESOLVER"
+      ]
+    }
+  },
+  "burgerMenuConfig": {
+    "primaryList": [
+      {
+        "title": "All Sports",
+        "iconUrl": "https://native-ice2019.sbtech.com/img/29472",
+        "route": "/allSports"
+      },
+      {
+        "title": "Baseball",
+        "iconUrl": "https://native-ice2019.sbtech.com//img/29497",
+        "route": "/sportScreen?sportId=7"
+      },
+      {
+        "title": "NFL",
+        "iconUrl": "https://native-ice2019.sbtech.com/img/29498",
+        "route": "/singleLeague?leagueID=88808"
+      },
+      {
+        "title": "Bet Search",
+        "iconUrl": "https://native-ice2019.sbtech.com/img/27787",
+        "route": "/responsive-search"
+      },
+      {
+        "title": "Promotions",
+        "iconUrl": "https://native-ice2019.sbtech.com/img/27791",
+        "route": "/promotions"
+      }
+    ],
+    "secondaryList": [
+      {
+        "title": "Terms & Conditions",
+        "iconUrl": "",
+        "route": "/terms-and-conditions"
+      },
+      {
+        "title": "Responsible gambling",
+        "iconUrl": "",
+        "route": "/responsible-gaming"
+      },
+      {
+        "title": "Settings",
+        "iconUrl": "",
+        "route": "/settings"
+      },
+      {
+        "title": "Live chat",
+        "iconUrl": "",
+        "route": "/?nativejs=document.getElementById('sbChat').classList.toggle('sbHidden');"
+      }
+    ]
+  },
+  "bottomBarConfig": [
+    {
+      "title": "Home",
+      "defaultIconUrl": "https://native-ice2019.sbtech.com/img/27539",
+      "selectedIconUrl": "https://native-ice2019.sbtech.com/img/27539",
+      "route": "/sportsbook",
+      "navigationType": "lateral"
+    },
+    {
+      "title": "Live",
+      "defaultIconUrl": "https://native-ice2019.sbtech.com/img/27541",
+      "selectedIconUrl": "https://native-ice2019.sbtech.com/img/27541",
+      "route": "/live-betting",
+      "navigationType": "lateral"
+    },
+    {
+      "title": "MLB",
+      "defaultIconUrl": "https://native-ice2019.sbtech.com//img/29497",
+      "selectedIconUrl": "https://native-ice2019.sbtech.com//img/29497",
+      "route": "/singleLeague?leagueID=84240",
+      "navigationType": "lateral"
+    },
+    {
+      "title": "Casino",
+      "defaultIconUrl": "https://native-ice2019.sbtech.com/img/27543",
+      "selectedIconUrl": "https://native-ice2019.sbtech.com/img/27543",
+      "route": "/casino",
+      "navigationType": "lateral"
+    },
+    {
+      "title": "Betslip",
+      "defaultIconUrl": "https://native-ice2019.sbtech.com/img/27545/img/27545.png",
+      "selectedIconUrl": "https://native-ice2019.sbtech.com/img/27545/img/27545.png",
+      "route": "/betslip",
+      "navigationType": "outward"
+    }
+  ],
+  "navigationBarConfig": {
+    "rightButtons": [
+      {
+        "title": "Search",
+        "iconUrl": "https://native-ice2019.sbtech.com/img/29379",
+        "route": "/responsive-search"
+      },
+      {
+        "title": "Open Bets",
+        "iconUrl": "https://native-ice2019.sbtech.com/img/27550",
+        "route": "/history"
+      }
+    ],
+    "showProfileInHeader": true,
+    "showBalanceInHeader": true,
+    "showBalanceButtonIcon": true,
+    "showBalanceWithDecimalsInHeader": true,
+    "loginButtonsPresentationType": "auth_buttons",
+    "logoUrl": "https://native-ice2019.sbtech.com/img/29501"
+  },
+  "balanceBreakdownConfig": {
+    "items": [],
+    "showFreeBets": false,
+    "showFreeSpins": false,
+    "showTransferButton": true,
+    "showDepositButton": true,
+    "showBottomBalance": false,
+    "depositButtonStyle": "bounded",
+    "transferButtonStyle": "bounded"
+  },
+  "regulatoryStripConfig": {
+    "isEnabled": false,
+    "sessionTimerConfig": {
+      "showClock": true,
+      "showTimer": true,
+      "timeZone": "GMT+3"
+    },
+    "regulatoryLogos": []
+  },
+  "footerConfig": {
+    "isEnabled": true,
+    "brandLogo": {
+      "elements": [
+        {
+          "logoUrl": "https://native-ice2019.sbtech.com/img/29500",
+          "alignment": "center"
+        }
+      ],
+      "position": 0
+    },
+    "links": {
+      "elements": [
+        {
+          "title": "Terms & Conditions",
+          "route": "/terms-and-conditions"
+        },
+        {
+          "title": "Betting Rules",
+          "route": "/betting-rules"
+        },
+        {
+          "title": "Responsible gaming",
+          "route": "/responsible-gaming"
+        },
+        {
+          "title": "Contact us",
+          "route": "/contactus"
+        }
+      ],
+      "position": 2
+    },
+    "logos": {
+      "elements": [
+        {
+          "logoUrl": "https://native-ice2019.sbtech.com/img/29230",
+          "route": "https://www.responsiblegambling.org/"
+        },
+        {
+          "logoUrl": "https://native-ice2019.sbtech.com/img/29232",
+          "route": "https://www.nj.gov/lps/ge/index.html"
+        },
+        {
+          "logoUrl": "https://native-ice2019.sbtech.com/img/29234",
+          "route": "https://www.mastercard.us/en-us.html"
+        },
+        {
+          "logoUrl": "https://native-ice2019.sbtech.com/img/29236",
+          "route": "https://www.visa.com"
+        },
+        {
+          "logoUrl": "https://native-ice2019.sbtech.com/img/29238",
+          "route": "https://www.neteller.com"
+        },
+        {
+          "logoUrl": "https://native-ice2019.sbtech.com/img/29240",
+          "route": "https://home.paynearme.com/"
+        }
+      ],
+      "position": 3
+    },
+    "paragraphs": {
+      "elements": [
+        {
+          "text": "<p>10bet.co.uk is operated by Blue Star Planet Limited (a company registered in Malta, address: 142 Triq il-Kbira, Zebbug ZBG1303, Malta).Our services are regulated and licensed by the <a href=\"http://www.gamblingcommission.gov.uk\">Great Britain Gambling Commission</a> <a href=\"https://secure.gamblingcommission.gov.uk/gccustomweb/PublicRegister/PRSearch.aspx?ExternalAccountId=43173\">(Licence Number 43173)</a></p><p>Our services for Republic of Ireland residents are operated under a Remote Bookmaker?s Licence (Licence Number 1010917), issued by the Office of the Revenue Commissioners.</p>Please play responsibly, for more information and advice visit: <a href=\"https://www.begambleaware.org\">www.begambleaware.org</a>"
+        }
+      ],
+      "position": 1
+    }
+  },
+  "userMenuConfig": {
+    "titleItem": {
+      "titleType": "full_name",
+      "subtitleType": "full_name"
+    },
+    "mainItems": [
+      {
+        "title": "Open Bets",
+        "iconUrl": "https://native-ice2019.sbtech.com/img/29371",
+        "type": "openBets",
+        "route": "/history"
+      },
+      {
+        "title": "Inbox",
+        "iconUrl": "https://native-ice2019.sbtech.com/img/29373",
+        "type": "inbox",
+        "route": "/inbox"
+      },
+      {
+        "title": "Balance",
+        "iconUrl": "https://native-ice2019.sbtech.com/img/29375",
+        "type": "balance",
+        "route": "/balance-transfer"
+      },
+      {
+        "title": "Free Bets",
+        "iconUrl": "https://native-ice2019.sbtech.com/img/29377",
+        "type": "freeBets",
+        "route": "/bonus-history"
+      },
+      {
+        "title": "Free Spins",
+        "iconUrl": "http://simpleicon.com/wp-content/uploads/rocket-128x128.png",
+        "type": "freeSpins",
+        "route": "/freespinsList"
+      }
+    ],
+    "actionItems": [
+      {
+        "title": "Sports",
+        "route": "/sports"
+      },
+      {
+        "title": "Casino",
+        "route": "/sports"
+      }
+    ],
+    "linkItems": [
+      {
+        "title": "My Account",
+        "items": [
+          {
+            "title": "Personal details",
+            "route": "/personal-details"
+          },
+          {
+            "title": "Withdraw",
+            "route": "/banking/?prodID=0&tranType=1"
+          },
+          {
+            "title": "Cancel withdrawal",
+            "route": "/cancel-withdrawal"
+          },
+          {
+            "title": "Documents upload",
+            "route": "/documents-upload"
+          },
+          {
+            "title": "Responsible gaming",
+            "route": "/responsible-gaming"
+          },
+          {
+            "title": "Timeout facility",
+            "route": "/time-out-facility"
+          },
+          {
+            "title": "Limits",
+            "route": "/limitation"
+          },
+          {
+            "title": "Transaction History",
+            "route": "/?nativejs=Application.navigateTo('transaction-history', false, []);"
+          },
+          {
+            "title": "Reality Check",
+            "route": "/realityCheckPopUp"
+          }
+        ]
+      },
+      {
+        "title": "Help",
+        "items": [
+          {
+            "title": "Betting Rules",
+            "route": "/betting-rules"
+          },
+          {
+            "title": "Terms & Conditions",
+            "route": "/terms-and-conditions"
+          },
+          {
+            "title": "Contact Us",
+            "route": "/contactus"
+          }
+        ]
+      }
+    ]
+  },
+  "registrationConfig": {
+    "registrationUrl": "/register"
+  },
+  "realityCheckConfig": {
+    "isEnabled": false,
+    "apiBaseUrl": "https://stgapi.sbtech.com/ice2018/realitycheck",
+    "showBettingHistory": true,
+    "showLogoutButton": true,
+    "showAfterLogin": true,
+    "defaultTime": 1,
+    "timeOptions": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      15,
+      30,
+      60
+    ],
+    "wageringInfo": {
+      "showSportWageringInfo": true,
+      "showCasinoWageringInfo": true
+    }
+  },
+  "logInConfig": {
+    "isKeepMeLoggedInEnabled": true,
+    "isBiometricsEnabled": false,
+    "isResponsibleGamblingMessageEnabled": false,
+    "termsAndConditionsUrl": "/terms-and-conditions",
+    "forgotPasswordRoute": "/forgot-password-pop-up",
+    "inputType": "username_and_password"
+  },
+  "logoutRegulationConfig": {
+    "isResponsibleGamblingDialogEnabled": true
+  },
+  "loadingScreenConfig": {
+    "displayOption": "custom",
+    "title": "Go BIG with SBTech",
+    "subtitle": "Extensive responsible gaming tools",
+    "description": "Go BIG with SBTech",
+    "topImageUrl": "https://native-ice2019.sbtech.com/img/27830",
+    "background": {
+      "imageUrl": "https://native-ice2019.sbtech.com/img/27620",
+      "gradient": {
+        "type": "linear",
+        "angle": 270
+      }
+    }
+  },
+  "landingScreenConfig": {
+    "displayOption": "always",
+    "defaultConfig": {
+      "backgroundUrls": [
+        "https://native-ice2019.sbtech.com/img/28199"
+      ],
+      "cardOpacity": 0.7,
+      "useTextHeader": false,
+      "customHeaderUrl": "",
+      "logoUrl": "https://native-ice2019.sbtech.com/img/29483",
+      "title": "Go BIG with SBTech!",
+      "description": "Extensive responsible gaming tools",
+      "substantiation": "We know sports!",
+      "buttons": [
+        {
+          "text": "Login",
+          "type": "bounded",
+          "style": "primary",
+          "route": "/login"
+        },
+        {
+          "text": "Create Account",
+          "type": "bounded",
+          "style": "secondary",
+          "route": "/registration"
+        }
+      ],
+      "skipButtonConfig": {
+        "text": "Skip",
+        "type": "text",
+        "style": "primary",
+        "route": "/homescreen"
+      }
+    }
+  },
+  "regulationRibbonConfig": {
+    "isEnabled": false,
+    "rules": {
+      "SE_PLAYER_WITH_DATE": {
+        "messageKey": "regulation_ribbon_self_excluded_user_with_date",
+        "route": ""
+      },
+      "SE_PLAYER": {
+        "messageKey": "regulation_ribbon_self_excluded_user",
+        "route": ""
+      },
+      "TIME_OUT": {
+        "messageKey": "regulation_ribbon_user_time_out",
+        "route": ""
+      },
+      "NON_KYC_USER": {
+        "messageKey": "regulation_ribbon_non_kyc_user",
+        "route": ""
+      },
+      "NON_VERIFIED_USER": {
+        "messageKey": "regulation_ribbon_non_verified_user",
+        "route": ""
+      },
+      "EXTERNAL_PLAYER_AGE_VERIFICATION": {
+        "messageKey": "regulation_ribbon_external_age_verification",
+        "route": ""
+      }
+    }
+  },
+  "geoComplyConfig": {
+    "isEnabled": false,
+    "geoComplyApiUrl": "https://geoverifierapi.staging.sbtech.com",
+    "publicIpUrl": "https://ipify-7hvuftx3qa-uc.a.run.app/?format=json"
+  },
+  "sportsbookConfig": {
+    "displayTeamNamesForMLMarket": false,
+    "showErrorAfterTryCount": 2,
+    "monthNaming": "names",
+    "datesFormat": "MM-dd-yyyy",
+    "timeFormat": "h:mm a",
+    "marketsOrderConfig": {
+      "americanMarketsOrder": [
+        {
+          "live": "1_39",
+          "prematch": "1_0"
+        },
+        {
+          "live": "2_39",
+          "prematch": "2_0"
+        },
+        {
+          "live": "3_39",
+          "prematch": "3_0"
+        }
+      ],
+      "europeanMarketsOrder": [
+        {
+          "live": "1_39",
+          "prematch": "1_0"
+        },
+        {
+          "live": "2_39",
+          "prematch": "2_0"
+        },
+        {
+          "live": "3_39",
+          "prematch": "3_0"
+        }
+      ],
+      "marketsOrderBySport": [
+        {
+          "sportId": 1,
+          "marketsOrder": [
+            {
+              "live": "1_39",
+              "prematch": "1_0"
+            },
+            {
+              "live": "3_39",
+              "prematch": "3_0"
+            },
+            {
+              "live": "2_39",
+              "prematch": "2_0"
+            }
+          ]
+        }
+      ]
+    },
+    "sportsConfig": {
+      "displayedSportIds": [
+        "1",
+        "2",
+        "3",
+        "6",
+        "7",
+        "8",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "19",
+        "20"
+      ],
+      "excludedSportIds": [],
+      "americanSportIds": [
+        "2",
+        "3",
+        "7",
+        "8"
+      ]
+    },
+    "homeScreenConfig": {
+      "displayedSportIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "19"
+      ]
+    },
+    "sportScreenConfig": {
+      "tabOrder": [
+        "games",
+        "leagues"
+      ],
+      "leaguesFilterItemsOrder": [
+        "popular",
+        "all"
+      ]
+    },
+    "leagueScreenConfig": {
+      "tabOrder": [
+        "games",
+        "outrights"
+      ],
+      "outrightsBoard": {
+        "halfExpandedLimit": 5
+      }
+    },
+    "eventScreenConfig": {
+      "showMediaTypes": true,
+      "marketsBoardConfig": {
+        "marketsGroupFilter": {
+          "allMarkets": {
+            "isEnabled": true,
+            "order": "first",
+            "expandedMarketsAmount": 30
+          },
+          "otherMarketsEnabled": false,
+          "orderAlphabetically": false
+        },
+        "participantMappingGroups": [
+          [
+            "Home",
+            "Away"
+          ]
+        ],
+        "outcomeTypeGroups": [
+          [
+            "Home",
+            "Away"
+          ],
+          [
+            "Home",
+            "Tie",
+            "Away"
+          ],
+          [
+            "Over",
+            "Under"
+          ],
+          [
+            "Over",
+            "Exactly",
+            "Under"
+          ],
+          [
+            "Yes",
+            "No"
+          ],
+          [
+            "Odd",
+            "Even"
+          ],
+          [
+            "1X",
+            "X2",
+            "12"
+          ],
+          [
+            "1X",
+            "12"
+          ],
+          [
+            "X2",
+            "12"
+          ],
+          [
+            "ToScoreFirst",
+            "ToScoreLast",
+            "ToScoreAnyTime"
+          ],
+          [
+            "ToScoreFirstOrLast",
+            "ToScore2OrMore",
+            "ToScore3OrMore"
+          ]
+        ],
+        "exceptionalSortingMarketIds": [
+          "76",
+          "166",
+          "702",
+          "1572",
+          "1610",
+          "2144"
+        ]
+      },
+      "scoreboardConfig": {
+        "isEnabled": true,
+        "hasBetRadarLicense": false,
+        "sports": [
+          {
+            "sportId": "6",
+            "showPrimaryScore": true,
+            "showPeriodScore": true,
+            "primaryScoreKeys": [],
+            "periodScoreKeys": []
+          }
+        ]
+      },
+      "matchTrackerConfig": {
+                    	"disableWidgetHeader" : true,
+                    	"disableFooterStats" : false,
+                    	"pitchCustomBgColor" : "",
+                    	"tabsPosition" : "top"
+      }
+    },
+    "marketsFilterConfig": {
+      "isEnabled": true,
+      "marketsBySportId": [
+        {
+          "sportId": "1",
+          "markets": [
+            {
+              "marketName": "1X2",
+              "marketTypeId": {
+                "prematch": "1_0",
+                "live": "1_39"
+              },
+              "marketKeyNames": [
+                "1",
+                "X",
+                "2"
+              ]
+            },
+            {
+              "marketName": "Total Goals",
+              "marketTypeId": {
+                "prematch": "3_200",
+                "live": "3_249"
+              },
+              "marketKeyNames": [
+                "Over",
+                "Under"
+              ]
+            },
+            {
+              "marketName": "1st Half 1X2",
+              "marketTypeId": {
+                "prematch": "1_1",
+                "live": "1_1"
+              },
+              "marketKeyNames": [
+                "1",
+                "X",
+                "2"
+              ]
+            },
+            {
+              "marketName": "Total Goals 1st Half",
+              "marketTypeId": {
+                "prematch": "3_201",
+                "live": "3_201"
+              },
+              "marketKeyNames": [
+                "Over",
+                "Under"
+              ]
+            },
+            {
+              "marketName": "Both Teams to Score",
+              "marketTypeId": {
+                "prematch": "158",
+                "live": "158"
+              },
+              "marketKeyNames": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "marketName": "Draw No Bet",
+              "marketTypeId": {
+                "prematch": "2_157",
+                "live": "2_157"
+              },
+              "marketKeyNames": [
+                "Home",
+                "Away"
+              ]
+            },
+            {
+              "marketName": "Double Chance",
+              "marketTypeId": {
+                "prematch": "61",
+                "live": "61"
+              },
+              "marketKeyNames": [
+                "1 or X",
+                "X or 2",
+                "1 or 2"
+              ]
+            },
+            {
+              "marketName": "3W Handicap",
+              "marketTypeId": {
+                "prematch": "270",
+                "live": "270"
+              },
+              "marketKeyNames": [
+                "Home",
+                "Tie, Home",
+                "Away"
+              ]
+            }
+          ]
+        },
+        {
+          "sportId": "6",
+          "markets": [
+            {
+              "marketName": "Full Time Winner",
+              "marketTypeId": {
+                "prematch": "1_0",
+                "live": "1_39"
+              },
+              "marketKeyNames": [
+                "1",
+                "2"
+              ]
+            },
+            {
+              "marketName": "1st Set Winner",
+              "marketTypeId": {
+                "prematch": "1_740",
+                "live": "1_716"
+              },
+              "marketKeyNames": [
+                "1",
+                "2"
+              ]
+            },
+            {
+              "marketName": "2nd Set Winner",
+              "marketTypeId": {
+                "prematch": "1_741",
+                "live": "1_717"
+              },
+              "marketKeyNames": [
+                "1",
+                "2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "decimalSeparator": {
+      "odd": ".",
+      "point": "."
+    }
+  },
+  "localizationConfig": {
+    "currencyFormat": {
+      "currencyPosition": "left",
+      "decimalSeparator": ".",
+      "thousandsSeparator": ",",
+      "signValueSeparator": " "
+    },
+    "initialLanguage": "en",
+    "timeZone": "+3",
+    "oddStyle": "american"
+  },
+  "webViewConfig": {
+    "isLoadingScreenEnabled": false,
+    "httpCredentials": {
+      "username": "VutydruSeY9DkgeM",
+      "password": "j4SbwCmMvwjgEtjj"
+    }
+  },
+  "betslipConfig": {
+    "betslipUrl": "/bet-slip-page",
+    "maxSelectionCountInBetslip": 20
+  },
+  "casinoConfig": {
+    "casinoUrl": "/casino",
+    "casinoApiBaseUrl": "https://stgapi.sbtech.com/whltemplate/casinoapi/v2",
+    "showErrorDuration": 2,
+    "resourceLimit": 5,
+    "restrictedKYCStatuses": [
+      "0",
+      "1"
+    ],
+    "isRestrictedTimeouted": false,
+    "allGamesCategoryEnabled": false,
+    "allGamesCategoryPosition": "first"
+  },
+  "shortcutsConfig": {
+    "isEnabled": false,
+    "shortcuts": []
+  },
+  "lastLoginInformationConfig": {
+    "showAfterLogin": false
+  },
+  "quickDepositConfig": {
+    "isQuickDepositEnabled": false,
+    "EPSBaseUrl": "http://eps-cashier-native-bff.eps.testing.sbtech.com",
+    "webCashierEndpoint": "/banking/?prodID=0&tranType=0",
+    "restrictedKYCStatuses": [
+      "0",
+      "1"
+    ],
+    "isRestrictedTimeouted": false,
+    "stepperSequence": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50
+    ]
+  },
+  "bannerListConfig": [
+    {
+      "route": "/single_sportsbook",
+      "type": "compact",
+      "banners": [
+        {
+          "title": "Title 4",
+          "promoText": "Soccer",
+          "materialTerms": "Redirect to Soccer screen",
+          "imageUrl": "https://native-ice2019.sbtech.com/img/29429",
+          "userType": "all",
+          "redirect": {
+            "route": "/sportScreen?sportId=1",
+            "type": "forward"
+          }
+        },
+        {
+          "title": "Title",
+          "promoText": "American Football",
+          "materialTerms": "Redirect to American Football screen",
+          "imageUrl": "https://native-ice2019.sbtech.com/img/29419",
+          "userType": "all",
+          "redirect": {
+            "route": "/sportScreen?sportId=3",
+            "type": "forward"
+          }
+        },
+        {
+          "title": "Title1 2",
+          "promoText": "NBA League",
+          "materialTerms": "Redirect to NBA league screen",
+          "imageUrl": "https://native-ice2019.sbtech.com/img/29421",
+          "userType": "all",
+          "redirect": {
+            "route": "/singleLeague?leagueID=42648",
+            "type": "forward"
+          }
+        }
+      ]
+    },
+    {
+      "route": "/single_casinoLobby",
+      "type": "compact",
+      "banners": [
+        {
+          "title": "Title1 - - very long text should devide into multiple lines, so that no corruption on banner screen should be",
+          "promoText": "Promo1 - - very long text should devide into multiple lines, so that no corruption on banner screen should be",
+          "materialTerms": "Material1 - very long text should devide into multiple lines, so that no corruption on banner screen should be",
+          "imageUrl": "https://nj-single-app.betamerica.com/img/24133",
+          "userType": "all",
+          "redirect": {
+            "route": "https://www.google.com/maps",
+            "type": "outward"
+          }
+        }
+      ]
+    },
+    {
+      "route": "/sportScreen?sportId=1",
+      "type": "compact",
+      "banners": [
+        {
+          "title": "",
+          "promoText": "England - Premier League",
+          "materialTerms": "Redirect to England - Premier League screen",
+          "imageUrl": "https://native-ice2019.sbtech.com/img/29429",
+          "userType": "all",
+          "redirect": {
+            "route": "/singleLeague?leagueID=40253",
+            "type": "forward"
+          }
+        },
+        {
+          "title": "",
+          "promoText": "Champions League",
+          "materialTerms": "Redirect to Champions League screen",
+          "imageUrl": "https://native-ice2019.sbtech.com/img/29433",
+          "userType": "all",
+          "redirect": {
+            "route": "/singleLeague?leagueID=40685",
+            "type": "forward"
+          }
+        },
+        {
+          "title": "",
+          "promoText": "Euro 2021",
+          "materialTerms": "Redirect to Euro 2021 League screen",
+          "imageUrl": "https://native-ice2019.sbtech.com/img/29435",
+          "userType": "all",
+          "redirect": {
+            "route": "/singleLeague?leagueID=44349",
+            "type": "forward"
+          }
+        },
+        {
+          "title": "",
+          "promoText": "World Cup 2022",
+          "materialTerms": "Redirect to World Cup 2022 League screen",
+          "imageUrl": "https://native-ice2019.sbtech.com/img/29437",
+          "userType": "all",
+          "redirect": {
+            "route": "/singleLeague?leagueID=142776",
+            "type": "forward"
+          }
+        }
+      ]
+    },
+    {
+      "route": "/sportScreen?sportId=3",
+      "type": "regular",
+      "banners": [
+        {
+          "title": "",
+          "promoText": "NFL League",
+          "materialTerms": "Redirect to NFL league screen",
+          "imageUrl": "https://native-ice2019.sbtech.com/img/29419",
+          "userType": "all",
+          "redirect": {
+            "route": "/singleLeague?leagueID=88808",
+            "type": "forward"
+          }
+        },
+        {
+          "title": "",
+          "promoText": "NFL Regular Season Player Props",
+          "materialTerms": "Redirect to ",
+          "imageUrl": "https://native-ice2019.sbtech.com/img/29419",
+          "userType": "all",
+          "redirect": {
+            "route": "/singleLeague?leagueID=199777",
+            "type": "forward"
+          }
+        }
+      ]
+    }
+  ]
+}
