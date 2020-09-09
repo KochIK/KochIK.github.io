@@ -13,8 +13,8 @@
     "sportDataBffPushUrl": "wss://stgapi.sbtech.com/ice2018/sportscontent/sportsbook/native-uat/v1/Websocket",
     "showUnderMaintenanceScreen": false,
     "brandId": "240",
-    "casinoApiBaseUrl": "https://api-usstg.sbtech.com/betamerica/casinoapi/v2"
-    "betRadarClientId": "02ac3725f95686fe1ab5bbe1088012d3",
+    "casinoApiBaseUrl": "https://api-usstg.sbtech.com/betamerica/casinoapi/v2",
+    "betRadarClientId": "02ac3725f95686fe1ab5bbe1088012d3"
   },
   "routesConfig": {
     "/deposit": "/banking/?prodID=0&tranType=0",
