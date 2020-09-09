@@ -689,14 +689,19 @@
             "primaryScoreKeys": [],
             "periodScoreKeys": []
           }
-        ]
+        ],
+        "betRadarConfig": {
+          "disableWidgetHeader": false,
+          "scoreboard": "extended",
+          "detailedScoreboard": "all",
+          "momentum": "timeline"
+        }
       },
       "matchTrackerConfig": {
-                    	"disableWidgetHeader" : true,
-                    	"disableFooterStats" : false,
-                    	"pitchCustomBgColor" : "",
-                    	"tabsPosition" : "top",
-                      "pitchCustomBgColor": ""
+        "disableWidgetHeader": true,
+        "disableFooterStats": false,
+        "pitchCustomBgColor": "",
+        "tabsPosition": "top"
       }
     },
     "marketsFilterConfig": {
