@@ -692,7 +692,7 @@
           }
         ],
         "betRadarConfig": {
-          "disableWidgetHeader": false,
+          "disableWidgetHeader": true,
           "scoreboard": "extended",
           "detailedScoreboard": "all",
           "momentum": "timeline"
