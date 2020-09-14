@@ -702,7 +702,7 @@
         "disableWidgetHeader": true,
         "disableFooterStats": false,
         "pitchCustomBgColor": "",
-        "tabsPosition": "top"
+        "tabsPosition": "bottom"
       }
     },
     "marketsFilterConfig": {
