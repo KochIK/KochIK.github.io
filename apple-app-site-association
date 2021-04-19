@@ -3,10 +3,11 @@
     "apps": [],
     "details": [
       {
-        "appID": "6XZF7Z6V36.com.relief.oxygen",
+        "appID": "SAG328GYLB.com.interdat.dating.romanceticket",
         "paths": [
-          "/join_premier/",
-          "/bank_account_details/",
+          "/user/*"
+          "/pay/",
+          "/billingHistory/",
           "/make_transfer/",
           "/make_check_deposit/",
           "/send_check_by_mail",
