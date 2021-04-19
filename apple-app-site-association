@@ -3,19 +3,11 @@
     "apps": [],
     "details": [
       {
-        "appID": "SAG328GYLB.com.interdat.dating.romanceticket",
-        "paths": [
-          "/user/*"
-          "/pay/",
-          "/billingHistory/",
-          "/make_transfer/",
-          "/make_check_deposit/",
-          "/send_check_by_mail",
-          "/oxygen_card/",
-          "/find_atms/",
-          "/profile/",
-          "/credit_score/",
-          "/referral_statistics/"
+        "appIDs": [ "SAG328GYLB.com.interdat.dating.romanceticket" ],
+        "components": [
+          { "/": "/user/*" },
+          { "/": "/pay" },
+          { "/": "/billingHistory" }
         ]
       }
     ]
