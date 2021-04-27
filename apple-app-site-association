@@ -5,7 +5,7 @@
       {
         "appID": "SAG328GYLB.com.interdat.dating.romanceticket",
         "paths": [
-          "/user/*"
+          "/user/*",
           "/pay/",
           "/billingHistory/"
         ]
