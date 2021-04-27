@@ -1,15 +1,25 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
       {
-        "appID": "SAG328GYLB.com.interdat.dating.romanceticket",
-        "paths": [
-          "/user/*",
-          "/pay/",
-          "/billingHistory/"
+        "appIDs": [ "SAG328GYLB.com.interdat.dating.romanceticket" ],
+        "components": [
+          { "/": "/search" },
+          { "/": "/profile" },
+          { "/": "/chat" },
+          { "/": "/favorites" },
+          { "/": "/menu" },
+          { "/": "/settings" },
+          { "/": "/settings-changePass" },
+          { "/": "/settings-changeEmail" },
+          { "/": "/settings-changePhone" },
+          { "/": "/user/*" },
+          { "/": "/pay" },
+          { "/": "/billingHistory" },
+          { "/": "/bell" },
+          { "/": "/passwordrecovery/*" },
         ]
       }
     ]
-  }
+  } 
 }
