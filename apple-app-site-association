@@ -11,8 +11,6 @@
           { "/": "/menu" },
           { "/": "/settings" },
           { "/": "/settings-changePass" },
-          { "/": "/settings-changeEmail" },
-          { "/": "/settings-changePhone" },
           { "/": "/user/*" },
           { "/": "/pay" },
           { "/": "/billingHistory" },
