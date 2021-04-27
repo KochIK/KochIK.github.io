@@ -1,14 +1,15 @@
 {
   "applinks": {
+    "apps": [],
     "details": [
       {
-        "appIDs": [ "SAG328GYLB.com.interdat.dating.romanceticket" ],
-        "components": [
-          { "/": "/user/*" },
-          { "/": "/pay" },
-          { "/": "/billingHistory" }
+        "appID": "SAG328GYLB.com.interdat.dating.romanceticket",
+        "paths": [
+          "/user/*",
+          "/pay/",
+          "/billingHistory/"
         ]
       }
     ]
-  } 
+  }
 }
